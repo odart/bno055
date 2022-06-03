@@ -28,10 +28,10 @@ Node name:
 
 Topics:
 
-* `jetson/imu`:
-  Publishes `geometry_msgs/Imu` Contains quaternion orientation, linear acceleration (m/s^2), and angular velocity (rads/s) .
+* `/imu/data`:
+  Publishes `sensor_msgs/Imu` Contains geometry_msgs/Quaternion orientation, geometry_msgs/Vector3, geometry_msgs/Vector3 for orientation, linear acceleration (m/s^2), and angular velocity (rads/s) .
 
-* `jetson/imu_info`:
+* `/imu/info`:
   Publishes `bno055_info` Contains the information on the IMUs calibration (accel, gyro, magno, sys) status and temperature (celcius).
 
 ## Launch Information
